@@ -1,7 +1,7 @@
 #!/bin/bash			
 
 # raj.................
-
+set -x
 echo "to find biggest of 3 numbers"
 echo ""
 # echo "" added to leave a space in output
