@@ -17,15 +17,5 @@ if [[ $1 -eq $2 && $1 -eq $3 ]]; then
 	echo "Rajaneesh"
 # to find equality, if all are equal program will end here with echo output
 
-elif [ $1 -ge $2 ] && [ $1 -ge $3 ]; then 
-	echo "$1 is bigger than all"
-	echo "Rajaneesh"
-# for $1 comaprison
-elif [ $2 -ge $1 ] && [ $2 -ge $3 ]; then
-        echo "$2 is bigger than all"
-	echo "Rajaneesh"
-	# for $2 comparison
-else [ $3 -ge $1 ] && [ $3 -ge $2 ]; 
-        echo "$3 is the biggest of all"
-	echo "Rajaneesh"
+
 fi
