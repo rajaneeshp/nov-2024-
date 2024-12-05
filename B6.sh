@@ -28,6 +28,4 @@ elif [ $2 -ge $1 ] && [ $2 -ge $3 ]; then
 else [ $3 -ge $1 ] && [ $3 -ge $2 ]; 
         echo "$3 is the biggest of all"
 	echo "Rajaneesh"
-
-	#end of comparison with $3
 fi
